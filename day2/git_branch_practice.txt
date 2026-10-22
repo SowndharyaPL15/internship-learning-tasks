@@ -1,0 +1,6 @@
+T10: Git Branching and Merging
+
+Branch Name: practice-merge
+Purpose: Practise branch creation, commits, merging, and conflict resolution.
+
+Status: Branch created successfully.
