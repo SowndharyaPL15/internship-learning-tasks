@@ -1,0 +1,45 @@
+{
+    "total_students": 5,
+    "class_average": 83.13,
+    "topper": {
+        "name": "Ananya",
+        "average": 91.67
+    },
+    "students": [
+        {
+            "name": "Vikram",
+            "python": 85.0,
+            "sql": 78.0,
+            "communication": 90.0,
+            "average": 84.33
+        },
+        {
+            "name": "Ananya",
+            "python": 92.0,
+            "sql": 88.0,
+            "communication": 95.0,
+            "average": 91.67
+        },
+        {
+            "name": "Harish",
+            "python": 76.0,
+            "sql": 82.0,
+            "communication": 80.0,
+            "average": 79.33
+        },
+        {
+            "name": "Nithya",
+            "python": 89.0,
+            "sql": 91.0,
+            "communication": 87.0,
+            "average": 89.0
+        },
+        {
+            "name": "Karthik",
+            "python": 68.0,
+            "sql": 74.0,
+            "communication": 72.0,
+            "average": 71.33
+        }
+    ]
+}
