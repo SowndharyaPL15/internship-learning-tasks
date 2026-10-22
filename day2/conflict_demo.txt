@@ -1,2 +1,6 @@
-T10 Merge Conflict Practice
-Status: Main and feature branch changes reviewed
+"""T10 Merge Conflict Practice
+Status: Main and feature branch changes reviewed"""
+
+1. Created a feature branch and modified the same file differently on the feature and main branches.
+2. Git reported a merge conflict, so I edited the file, removed the conflict markers, and saved the correct final content.
+3. Staged the resolved file using git add and completed the merge with git commit.
