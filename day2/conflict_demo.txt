@@ -1,4 +1,2 @@
 T10 Merge Conflict Practice
-#Status: Original version
-#Status: Feature branch version
-Status: Main branch version
+Status: Main and feature branch changes reviewed
