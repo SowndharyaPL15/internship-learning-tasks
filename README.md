@@ -1,80 +1,43 @@
-# Python Programming Internship Tasks
+# Python Internship Learning Tasks
 
-## About the Repository
-
-This repository contains the practical programming tasks completed as part of my internship learning journey. It demonstrates my practice of Python fundamentals, problem-solving, and Git/GitHub version control through hands-on exercises.
+## About
+This repository documents my hands-on learning and practice throughout my internship. It includes Python fundamentals, data handling, object-oriented programming, data analysis, and Git/GitHub workflows.
 
 ## Tasks Completed
 
-| Task ID | Task Description | Status |
+| Task | Topic | Key Learning |
 |---|---|---|
-| T01 | Python Environment Setup and Hello World | Completed |
-| T02 | Git and GitHub Fundamentals | Completed |
-| T03 | Variables, Data Types, and Strings | Completed |
-| T04 | Control Flow and Functions | Completed |
-| T05 | Python Data Structures and Problem-Solving | Completed |
+| T01 | Python Setup & Hello World | Python environment setup and first program |
+| T02 | Git Basics | Git commands and repository management |
+| T03 | Variables, Data Types & Strings | Variables, data types, string operations, and basic programs |
+| T04 | Control Flow & Functions | Conditions, loops, and function arguments |
+| T05 | Python Data Structures | Lists, tuples, dictionaries, sets, slicing, and comprehensions |
+| T06 | File I/O & JSON | CSV file handling, JSON conversion, and summary generation |
+| T07 | Errors, Modules & Packages | Exception handling, modular programming, and reusable functions |
+| T08 | Object-Oriented Programming | Classes, objects, inheritance, and method implementation |
+| T09 | NumPy & pandas | Array operations, dataset analysis, filtering, and summary statistics |
+| T10 | Git Branching, Merging & Conflicts | Feature branches, merging, conflict resolution, stash, restore, revert practice, and Git history |
 
-## Skills Practised
-
-- Python programming fundamentals
-- Variables, data types, and type conversion
-- String operations and formatted output
-- Conditional statements and loops
-- Functions and reusable code
-- Lists, tuples, dictionaries, and sets
-- Basic problem-solving and word-frequency counting
-- Git commands, commits, and branching
-- GitHub repository management
-
-## Technologies and Tools
-
-- **Language:** Python
-- **Version Control:** Git
-- **Repository Hosting:** GitHub
-- **Code Editor:** Visual Studio Code
-- **Operating System:** Windows
+## Tools & Technologies
+- Python
+- Git and GitHub
+- NumPy and pandas
+- VS Code
+- CSV and JSON
 
 ## Repository Structure
-
 ```text
 internship-learning-tasks/
 ├── day1/
-│   ├── hello.py
-│   ├── pythonbasic.py
-│   ├── flowcontrol.py
-│   └── [Other task programs]
+├── day2/
 ├── screenshots/
-│   └── [Task screenshots]
 ├── .gitignore
 └── README.md
 ```
 
-*Note: The file names shown are examples. Keep only the files and folders that actually exist in your repository.*
+## Learning Approach
+Each task focuses on practical implementation, clear code organization, version control, and documenting the learning process. Screenshots are included as supporting evidence where applicable.
 
-## How to Run the Programs
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/SowndharyaPL15/internship-learning-tasks.git
-```
-
-**2. Navigate to the project folder**
-
-```bash
-cd internship-learning-tasks
-```
-
-**3. Run a Python program**
-
-```bash
-python day1/hello.py
-```
-
-Replace the file path with the Python program you want to execute.
-
-## Learning Outcome
-
-Through these tasks, I gained practical experience in writing and executing Python programs, applying fundamental programming concepts, solving basic problems, and managing code changes using Git and GitHub.
-
+## Progress
+**T01–T10:** Task implementations completed; Git workflow practice and documentation are being finalized.
 
