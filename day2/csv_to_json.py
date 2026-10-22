@@ -88,14 +88,11 @@ from pathlib import Path
 import csv
 import json
 
-# Locate the input and output files
 folder = Path(__file__).parent
 input_file = folder / "students.csv"
 output_file = folder / "summary.json"
 
 students = []
-
-# Read student details from the CSV file
 with open(input_file, "r", newline="", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
@@ -119,7 +116,6 @@ with open(input_file, "r", newline="", encoding="utf-8") as file:
 
         students.append(student)
 
-# Calculate the class average and find the topper
 class_average = round(
     sum(student["average"] for student in students) / len(students),
     2
@@ -127,7 +123,6 @@ class_average = round(
 
 topper = max(students, key=lambda student: student["average"])
 
-# Prepare the summary data
 summary = {
     "total_students": len(students),
     "class_average": class_average,
@@ -138,7 +133,6 @@ summary = {
     "students": students
 }
 
-# Save the summary in JSON format
 with open(output_file, "w", encoding="utf-8") as file:
     json.dump(summary, file, indent=4)
 
